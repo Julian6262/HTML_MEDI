@@ -5,14 +5,10 @@
     <meta charset="utf-8">
     <title>MEDI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -23,9 +19,149 @@
 
 <header class="header">
 
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-items">
+
+                <a href="#" class="header__top-item border-left">
+                    <img src="img/logo.png" alt="...">
+                </a>
+
+                <a href="#" class="header__top-item text-hover">
+                    +7 (123) 456 78 90
+                </a>
+
+                <label class="header__top-item">Наши салоны
+                    <select>
+                        <option>Москва</option>
+                        <option>Рязань</option>
+                        <option>Луховицы</option>
+                        <option>Котельники</option>
+                    </select>
+                </label>
+
+                <a href="#" class="btn-advanced">
+                    <img src="img/eye.png" alt="...">
+                    Версия для слабовидящих
+                </a>
+
+                <a href="#" class="header__top-item border-left">
+                    <img src="img/vk.png" alt="...">
+                </a>
+
+                <a href="#" class="header__top-item">
+                    <img src="img/youtube.png" alt="...">
+                </a>
+
+                <a href="#" class="header__top-item">
+                    <img src="img/facebook.png" alt="...">
+                </a>
+
+                <a href="#" class="header__top-item">
+                    <img src="img/instagram.png" alt="...">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="header__bottom">
+
+        <div class="container">
+
+            <div class="header__bottom-items">
+                <nav>
+                    <ul class="header__bottom-nav">
+                        <li><a href="#">Косметология</a></li>
+                        <li><a href="#">Пластическая хирургия</a></li>
+                        <li><a href="#">Стоматология</a></li>
+                        <li><a href="#">Лазерная медицина</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <a class="header__bottom-btn" href="#">Запись на прием</a>
+
+            </div>
+
+        </div>
+    </div>
 
 </header>
 
+<section class="slider">
+    <div class="container">
+
+        <div class="slider__inner">
+
+            <div class="slider__item">
+
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Косметология
+                    </div>
+
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
+
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
+
+                <img src="img/slider.png" alt="...">
+
+            </div>
+
+            <div class="slider__item">
+
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Стоматология
+                    </div>
+
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
+
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
+
+                <img src="img/slider.png" alt="...">
+
+            </div>
+
+            <div class="slider__item">
+
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Пластическая хирургия
+                    </div>
+
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
+
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
+
+                <img src="img/slider.png" alt="...">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 
 <footer class="footer">
@@ -34,6 +170,13 @@
     </div>
 </footer>
 
+<div id="modal">
+    <form>
+        <input type="text" placeholder="Ваше имя">
+        <input type="text" placeholder="Ваш телефон">
+        <input type="submit" value="Отправить">
+    </form>
+</div>
 
 <script>
 
@@ -51,7 +194,6 @@
     }
 
 </script>
-
 
 </body>
 </html>
