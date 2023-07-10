@@ -232,6 +232,9 @@ li {
     height: 50px;
     position: absolute;
     bottom: 60px;
+    font-size: 15px;
+    font-family: 'icomoon';
+    color: #FFFFFF;
 }
 
 .slick-next {
@@ -244,18 +247,62 @@ li {
 }
 
 .slick-next:before {
-content: "";
+    content: "\f177";
     position: absolute;
-    background: url("../img/Arrow1.png");
+    top: 16px;
+    left: 22px;
+    transform: scale(2, 1);
 }
 
 .slick-prev:before {
-    content: "";
-    width: 60px;
-    height: 50px;
+    content: "\f178";
     position: absolute;
-    background: url("../img/Arrow2.png") no-repeat center;
+    top: 16px;
+    left: 22px;
+    transform: scale(2, 1);
 }
+
+.slick-next:hover {
+    border-color: rgb(218, 218, 218);
+    background-color: rgba(218, 218, 218, 0.32);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.slick-prev:hover {
+    border-color: rgb(218, 218, 218);
+    background-color: rgba(218, 218, 218, 0.32);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.slider__bottom {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #00868A;
+}
+
+.slider__btn {
+    width: 100%;
+    max-width: 324px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.slider__btn.width {
+    max-width: 648px;
+}
+
+.slider__btn.color {
+    padding: 25px 0;
+    background-color: #4FBFA5;
+    height: 100%;
+}
+
+
+
 
 
 
