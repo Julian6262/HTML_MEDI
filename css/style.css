@@ -302,6 +302,136 @@ li {
 }
 
 
+/*PATENT*/
+.patent__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.patent__left {
+    background-color: #00868A;
+    max-width: 526px;
+}
+
+.patent__left-text {
+    padding: 41px 40px;
+}
+
+.patent__block-title {
+    max-width: 125px;
+    height: 40px;
+    background-color: #4FBFA5;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.patent__title {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.patent__btn {
+    margin-top: 30px;
+    padding: 10px 10px 10px 70px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    position: relative;
+}
+
+.patent__btn-block {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    bottom: 60px;
+    font-size: 15px;
+    font-family: 'icomoon';
+    color: #FFFFFF;
+}
+
+.patent__btn-block:before {
+    content: "\f178";
+    position: absolute;
+    top: 9px;
+    left: 19px;
+    font-size: 12px;
+    transform: scale(2, 1);
+}
+
+.patent__btn:hover {
+    color: rgb(218, 218, 218);
+    transition: .3s;
+}
+
+.patent__right {
+    max-width: 636px;
+    width: 100%;
+    padding: 41px 0 0;
+}
+
+.patent__block-title.right {
+    max-width: 186px;
+    color: #FFFFFF;
+}
+
+.patent__right-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    position: relative;
+}
+
+.patent__right-content-rows {
+    max-width: 214px;
+}
+
+.patent__right-text {
+    display: flex;
+    padding-top: 45px;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.patent__right-text:first-child {
+    padding-top: 14px;
+}
+
+.patent__right-text:last-child {
+    padding-top: 184px;
+}
+
+.patent__right-text.size {
+    width: 460px;
+    top: 193px;
+    position: absolute;
+    font-size: 28px;
+    line-height: 42px;
+    color: black;
+}
+
+.patent__right-text-num.size {
+    color: #00868A;
+    font-size: 96px;
+}
+
+.patent__right-text-num {
+    padding-right: 20px;
+    font-size: 48px;
+}
+
 
 
 
