@@ -81,13 +81,12 @@ li {
 
 
 /*HEADER*/
-.header__top-items {
+.header__top-items, .footer__bottom-items {
     display: flex;
     height: 90px;
-    justify-content: center;
 }
 
-.header__top-item {
+.header__top-item, .footer__bottom-item {
     display: flex;
     align-items: center;
     color: black;
@@ -95,7 +94,7 @@ li {
     font-weight: 500;
     line-height: 18px;
     border-right: 1px solid #C4C4C4;
-    padding-inline: 19px;
+    padding-inline: 27px;
     position: relative;
 }
 
@@ -569,10 +568,121 @@ li {
 }
 
 
+/*FOOTER*/
+.footer a {
+    color: black;
+}
 
+.footer__left {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 190px;
+    row-gap: 30px;
+    padding-bottom: 79px;
+}
 
+.footer__left-title {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
 
+.footer__left-list a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-top: 15px;
+}
 
+.footer__content {
+    display: flex;
+    color: black;
+}
+
+.footer__right {
+    padding-left: 108px;
+}
+
+.footer__right-title {
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.footer__right-text {
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer__right-btn {
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    margin-top: 15px;
+    background-color: #00868A;
+    padding: 15px 25px;
+}
+
+.footer__right-title.padding {
+    padding-top: 30px;
+}
+
+.footer__left-list a:hover {
+    color: #9b9b9b;
+    transition: .3s;
+}
+
+.footer__right a {
+    color: #FFFFFF;
+}
+
+.footer__right a:hover {
+    background-color: rgb(0, 116, 119);
+    transition: .3s;
+}
+
+.footer__bottom-item.border-left {
+    border-left: 1px solid #C4C4C4;
+    max-width: 384px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__bottom-item.text-hover {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.footer__bottom-item:hover img {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.68));
+    transition: .3s;
+}
+
+.footer__bottom-items {
+    border-top: 1px solid #C4C4C4;
+}
+
+.footer__allrights {
+    display: flex;
+}
+
+.footer__bottom-item.border-right {
+    border-right: none;
+}
+
+.footer__bottom-item.text-hover:hover {
+    text-decoration: none;
+}
+
+.footer__bottom-items .btn-advanced {
+    color: #FFFFFF;
+}
 
 
 
