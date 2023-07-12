@@ -68,15 +68,19 @@ li {
     margin-bottom: 20px;
     height: 40px;
     padding-left: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gilroy', sans-serif;
 }
 
 #modal input[type="submit"] {
-    background-color: #ffc222;
+    background-color: #00868A;
 }
 
 #modal input[type="submit"]:hover {
-    color: #999999;
+    color: #FFFFFF;
+}
+
+.fancybox-slide--html {
+    color: black;
 }
 
 
@@ -94,8 +98,14 @@ li {
     font-weight: 500;
     line-height: 18px;
     border-right: 1px solid #C4C4C4;
-    padding-inline: 27px;
+    padding-inline: 28px;
     position: relative;
+}
+
+.header__top-item .header__label {
+    padding-right: 22px;
+    height: 32px;
+    padding-top: 6px;
 }
 
 .header__top-item.text-hover:hover {
@@ -121,7 +131,7 @@ li {
     background-color: #00868A;
     color: #FFFFFF;
     border: none;
-    margin-inline: 30px;
+    margin-inline: 29px;
     height: 40px;
     min-width: 270px;
     position: relative;
@@ -685,6 +695,66 @@ li {
 }
 
 
+/*SELECT*/
+.jq-selectbox__select {
+    border: none;
+    background: none;
+    box-shadow: none;
+    position: absolute;
+    top: -25px;
+    right: -20px;
+}
+
+.jq-selectbox__select:hover {
+    background: none;
+}
+
+.jq-selectbox__select:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.jq-selectbox__select-text {
+    display: none;
+}
+
+.jq-selectbox__trigger {
+    border-left: none;
+}
+
+.jq-selectbox.focused .jq-selectbox__select {
+    border: none;
+}
+
+.jq-selectbox__trigger-arrow {
+    width: 20px;
+    height: 20px;
+    background-color: #4FBFA5;
+    border: none;
+    border-radius: 50%;
+}
+
+.jq-selectbox__trigger-arrow:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    border-top: 5px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.jq-selectbox__trigger-arrow:hover {
+    background-color: #009398;
+    transition: .3s;
+}
+
+.jq-selectbox__dropdown {
+    position: absolute;
+    top: 10px;
+    left: -127px;
+    width: 130px !important;
+}
 
 
 
