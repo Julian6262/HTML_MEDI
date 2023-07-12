@@ -102,10 +102,8 @@ li {
     position: relative;
 }
 
-.header__top-item .header__label {
-    padding-right: 22px;
-    height: 32px;
-    padding-top: 6px;
+.header__top-item.header__label {
+    padding-right: 49px;
 }
 
 .header__top-item.text-hover:hover {
@@ -702,7 +700,7 @@ li {
     box-shadow: none;
     position: absolute;
     top: -25px;
-    right: -20px;
+    right: -41px;
 }
 
 .jq-selectbox__select:hover {
@@ -752,8 +750,8 @@ li {
 .jq-selectbox__dropdown {
     position: absolute;
     top: 10px;
-    left: -127px;
-    width: 130px !important;
+    left: -120px;
+    width: 150px !important;
 }
 
 
