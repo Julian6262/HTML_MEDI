@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>MEDI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
@@ -37,8 +36,8 @@
                     +7 (123) 456 78 90
                 </a>
 
-                <label class="header__top-item header__label">
-                    Наши салоны
+                <label class="header__top-item select">
+                    <span>Наши салоны</span>
                     <select>
                         <option>Москва</option>
                         <option>Рязань</option>
@@ -47,12 +46,14 @@
                     </select>
                 </label>
 
-                <a href="#" class="btn-advanced">
-                    <img src="img/eye.png" alt="...">
-                    Версия для слабовидящих
-                </a>
+                <div class="header__top-item btn">
+                    <a href="#" class="btn-advanced">
+                        <img src="img/eye.png" alt="...">
+                        <span>Версия для слабовидящих</span>
+                    </a>
+                </div>
 
-                <a href="#" class="header__top-item border-left">
+                <a href="#" class="header__top-item">
                     <img src="img/vk.png" alt="...">
                 </a>
 
@@ -78,6 +79,9 @@
         <div class="container">
 
             <div class="header__bottom-items">
+
+                <div class="header__btn-menu icon-menu"></div>
+
                 <nav>
                     <ul class="header__bottom-nav">
                         <li><a href="#">Косметология</a></li>
@@ -97,94 +101,94 @@
 
 </header>
 
-<!--<section class="slider">-->
-<!--    <div class="container">-->
+<section class="slider">
+    <div class="container">
 
-<!--        <div class="slider__inner">-->
+        <div class="slider__inner">
 
-<!--            <div class="slider__item">-->
+            <div class="slider__item">
 
-<!--                <div class="slider__item-content">-->
-<!--                    <div class="slider__item-title">-->
-<!--                        Косметология-->
-<!--                    </div>-->
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Косметология
+                    </div>
 
-<!--                    <div class="slider__item-text">-->
-<!--                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —-->
-<!--                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека-->
-<!--                        благополучного и-->
-<!--                        успешного.-->
-<!--                    </div>-->
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
 
-<!--                    <a class="slider__item-btn" href="#">подробнее</a>-->
-<!--                </div>-->
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
 
-<!--                <img src="img/slider.png" alt="...">-->
+                <img src="img/slider.png" alt="...">
 
-<!--            </div>-->
+            </div>
 
-<!--            <div class="slider__item">-->
+            <div class="slider__item">
 
-<!--                <div class="slider__item-content">-->
-<!--                    <div class="slider__item-title">-->
-<!--                        Стоматология-->
-<!--                    </div>-->
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Стоматология
+                    </div>
 
-<!--                    <div class="slider__item-text">-->
-<!--                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —-->
-<!--                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека-->
-<!--                        благополучного и-->
-<!--                        успешного.-->
-<!--                    </div>-->
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
 
-<!--                    <a class="slider__item-btn" href="#">подробнее</a>-->
-<!--                </div>-->
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
 
-<!--                <img src="img/slider.png" alt="...">-->
+                <img src="img/slider.png" alt="...">
 
-<!--            </div>-->
+            </div>
 
-<!--            <div class="slider__item">-->
+            <div class="slider__item">
 
-<!--                <div class="slider__item-content">-->
-<!--                    <div class="slider__item-title">-->
-<!--                        Пластическая хирургия-->
-<!--                    </div>-->
+                <div class="slider__item-content">
+                    <div class="slider__item-title">
+                        Пластическая хирургия
+                    </div>
 
-<!--                    <div class="slider__item-text">-->
-<!--                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —-->
-<!--                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека-->
-<!--                        благополучного и-->
-<!--                        успешного.-->
-<!--                    </div>-->
+                    <div class="slider__item-text">
+                        Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура —
+                        сегодня это неотъемлемые черты привлекательной внешности, характеризующие человека
+                        благополучного и
+                        успешного.
+                    </div>
 
-<!--                    <a class="slider__item-btn" href="#">подробнее</a>-->
-<!--                </div>-->
+                    <a class="slider__item-btn" href="#">подробнее</a>
+                </div>
 
-<!--                <img src="img/slider.png" alt="...">-->
+                <img src="img/slider.png" alt="...">
 
-<!--            </div>-->
+            </div>
 
-<!--        </div>-->
+        </div>
 
-<!--        <div class="slider__bottom">-->
+        <div class="slider__bottom">
 
-<!--            <div class="slider__btn width">-->
-<!--                Комплексные процедуры-->
-<!--            </div>-->
+            <div class="slider__btn width">
+                Комплексные процедуры
+            </div>
 
-<!--            <div class="slider__btn color">-->
-<!--                Центр обучения-->
-<!--            </div>-->
+            <div class="slider__btn color">
+                Центр обучения
+            </div>
 
-<!--            <div class="slider__btn">-->
-<!--                VIP клиентам-->
-<!--            </div>-->
+            <div class="slider__btn">
+                VIP клиентам
+            </div>
 
-<!--        </div>-->
+        </div>
 
-<!--    </div>-->
-<!--</section>-->
+    </div>
+</section>
 
 <!--<section class="patent">-->
 
@@ -524,25 +528,24 @@
 
 <!--            <div class="footer__bottom-items">-->
 
-<!--                <div class="footer__allrights">-->
+<!--                <div class="footer__bottom-item border-left border-right">-->
+<!--                    (c) 2021. Центр космелогии. Все права защищены.-->
+<!--                    Наши сертификаты на осуществление деятельности.-->
+<!--                    Патенты на использование технологий.-->
+<!--                </div>-->
 
-<!--                    <div class="footer__bottom-item border-left border-right">-->
-<!--                        (c) 2021. Центр космелогии. Все права защищены.-->
-<!--                        Наши сертификаты на осуществление деятельности.-->
-<!--                        Патенты на использование технологий.-->
-<!--                    </div>-->
+<!--                <a href="#" class="footer__bottom-item text-hover">-->
+<!--                    Политика конфиденциальности-->
+<!--                </a>-->
 
-<!--                    <a href="#" class="footer__bottom-item text-hover">-->
-<!--                        Политика конфиденциальности-->
+<!--                <div class="footer__bottom-item">-->
+<!--                    <a href="#" class="btn-advanced">-->
+<!--                        <img src="img/eye.png" alt="...">-->
+<!--                        Версия для слабовидящих-->
 <!--                    </a>-->
 <!--                </div>-->
 
-<!--                <a href="#" class="btn-advanced">-->
-<!--                    <img src="img/eye.png" alt="...">-->
-<!--                    Версия для слабовидящих-->
-<!--                </a>-->
-
-<!--                <a href="#" class="footer__bottom-item border-left">-->
+<!--                <a href="#" class="footer__bottom-item">-->
 <!--                    <img src="img/vk.png" alt="...">-->
 <!--                </a>-->
 

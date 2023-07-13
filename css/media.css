@@ -1,0 +1,161 @@
+@media (max-width: 1250px) {
+    .slick-slide img {
+        width: 580px;
+    }
+
+    .slider__item-content {
+        max-width: 460px;
+    }
+}
+
+
+@media (max-width: 1190px) {
+    .header__top-item.btn span {
+        display: none;
+    }
+
+    .btn-advanced {
+        min-width: 60px;
+    }
+
+    .btn-advanced img {
+        left: 20px;
+    }
+
+    .header__top-item:nth-child(4) {
+        flex-basis: 120px;
+    }
+
+    .slick-slide img {
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .header__bottom-nav {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .slick-slide img {
+        display: none;
+    }
+
+    .slider__item {
+        justify-content: center;
+    }
+
+    .slider__item-content {
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+        padding-top: 80px;
+    }
+
+    .slick-btn {
+        bottom: 20px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .btn-advanced {
+        display: none;
+    }
+
+    .header__top-item:nth-child(4) {
+        display: none;
+    }
+}
+
+
+@media (min-width: 851px) {
+    .header__bottom-nav {
+        display: flex !important;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .header__btn-menu {
+        display: block;
+    }
+
+    .header__bottom-nav {
+        display: none;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        width: 100%;
+        background-color: #00868A;
+        padding-right: 0;
+        z-index: 50;
+    }
+
+    .header__bottom-nav li {
+        border-top: 1px solid white;
+    }
+
+    .header__bottom-items {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__bottom-nav a:hover {
+        color: black;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header__top-item.border-left {
+        display: none;
+    }
+
+    .header__top-item:nth-child(2) {
+        border-left: 1px solid #C4C4C4;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .header__top-item:nth-child(n+5) {
+        display: none;
+    }
+
+    .header__top-items, .footer__bottom-items {
+        justify-content: center;
+    }
+
+    .header__top-item:nth-child(3) {
+        flex-basis: 250px;
+    }
+
+    .header__top-item:nth-child(2) {
+        flex-basis: 250px;
+    }
+
+    .slider__btn {
+        font-size: 18px;
+    }
+
+    .slider__item-title {
+        font-size: 38px;
+    }
+
+    .slider__item-btn {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .slick-btn {
+        display: none !important;
+    }
+
+    .slider__bottom {
+        display: none;
+    }
+}
