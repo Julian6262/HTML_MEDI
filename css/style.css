@@ -343,10 +343,14 @@ li {
 .patent__left {
     background-color: #00868A;
     max-width: 526px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .patent__left-text {
-    padding: 41px 40px;
+    padding: 105px 40px 41px 40px;
 }
 
 .patent__block-title, .news__block-title, .special__block-title {
@@ -416,6 +420,13 @@ li {
     color: #FFFFFF;
 }
 
+.patent__left .patent__block-title {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    padding-inline: 10px;
+}
+
 .patent__right-content {
     display: flex;
     justify-content: space-between;
@@ -424,7 +435,7 @@ li {
 }
 
 .patent__right-content-rows {
-    max-width: 214px;
+    width: 235px;
 }
 
 .patent__right-text {
@@ -605,10 +616,17 @@ li {
     color: black;
 }
 
+.footer__bottom-item.border-left {
+    display: flex;
+}
+
+.footer__bottom-item-left {
+    width: 300px;
+}
+
 .footer__left {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
     column-gap: 190px;
     row-gap: 30px;
     padding-bottom: 79px;
@@ -630,10 +648,11 @@ li {
 .footer__content {
     display: flex;
     color: black;
+    justify-content: space-between;
 }
 
 .footer__right {
-    padding-left: 108px;
+    padding-left: 50px;
 }
 
 .footer__right-title {
@@ -679,19 +698,14 @@ li {
 }
 
 .footer__bottom-item:nth-child(1) {
-    padding-left: 25px;
-    flex-basis: 347px;
+    flex-basis: 644px;
 }
 
 .footer__bottom-item:nth-child(2) {
-    flex-basis: 297px;
-}
-
-.footer__bottom-item:nth-child(3) {
     flex-basis: 331px;
 }
 
-.footer__bottom-item:nth-child(n+4) {
+.footer__bottom-item:nth-child(n+3) {
     flex-basis: 80px;
 }
 
@@ -699,9 +713,10 @@ li {
     border-left: 1px solid #C4C4C4;
     font-size: 12px;
     font-weight: 400;
+    justify-content: space-around;
 }
 
-.footer__bottom-item.text-hover {
+.footer__bottom-item .text-hover {
     font-size: 12px;
     font-weight: 400;
     text-decoration: underline;
@@ -716,11 +731,7 @@ li {
     border-top: 1px solid #C4C4C4;
 }
 
-.footer__bottom-item.border-right {
-    border-right: none;
-}
-
-.footer__bottom-item.text-hover:hover {
+.footer__bottom-item .text-hover:hover {
     text-decoration: none;
 }
 
